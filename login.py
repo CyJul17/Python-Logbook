@@ -4,17 +4,6 @@ ctk.set_appearance_mode("Dark")
 ctk.set_default_color_theme("blue")
 
 
-def run_cli_mode():
-    print("GUI display unavailable. Starting console login mode...")
-    username = input("Username: ").strip()
-    password = input("Password: ").strip()
-    print(f"Console login attempt for user: {username}")
-    if username and password:
-        print("Login accepted in console mode.")
-    else:
-        print("Login failed: username and password are required.")
-
-
 class Login(ctk.CTk):
 
     def __init__(self):
