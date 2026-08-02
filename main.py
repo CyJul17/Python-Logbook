@@ -1,6 +1,6 @@
 import tkinter
-import login
+import app
 
 if __name__ == "__main__":
-    start = login.Login()
+    start = app.App()
     start.mainloop()
